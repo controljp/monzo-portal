@@ -143,9 +143,9 @@ function LandingPage() {
       <main>
         
         <section className="w-full   bg-[#EFF2FF]" id="section3">
-          <div className="bg-[red] w-full h-full flex flex-col items-center  pt-20 pb-20 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
+          <div className="w-full h-full flex flex-col items-center  pt-20 pb-20 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
             <h1 className="text-5xl font-bold max-w-[900px] gap-3">Nossos Clientes</h1>
-            <div className="bg-[green] ">
+            {/* <div className=" "> */}
               <Carousel toShow={3}>
                 <div className="flex p-2 w-full bg-transparent ">
                   <div className="max-[900px]: ">
@@ -182,7 +182,7 @@ function LandingPage() {
                   </div>
                 </div> 
                 </Carousel>
-            </div>
+            {/* </div> */}
           </div>
        </section>
 
