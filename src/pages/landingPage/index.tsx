@@ -141,87 +141,50 @@ function LandingPage() {
         </div>
       </header>
       <main>
-        {/* <section className="w-full flex items-center bg-[#EFF2FF] mx-auto px-8 container">
-        <h1 className=" font-bold text-3xl">Nossos Clientes</h1>
         
-    <div className="w-full h-full flex flex-col items-center  pt-20 pb-20  gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
-      <div className="flex items-center mt-10 p-2 w-full">
-         <Carousel toShow={2}>
-          <div className="max-[900px]: ">
-              <div className="flex  items-center gap-6 p-2 w-full bg-transparent">
-                <ul className="flex items-center w-full gap-5">
-                  <li className="font-medium ">Condomínio Vereda das Flores</li>
-                  <div className="bg-gray-300 w-[1px] h-7"></div>
-                  <li className="font-medium "> Urbanização Boa Vida</li>
-                </ul>
-              </div>
-          </div>
-
-          <div className="max-[900px]: ">
-              <div className="flex  items-center gap-6">
-                <ul className="flex items-center w-full gap-5">
-                  <li className="font-medium ">Condomínio Rosa Linda</li>
-                  <div className="bg-gray-300 w-[1px] h-7"></div>
-                  <li className="font-medium ">Condomínio Riviera </li>
-                </ul>
-              </div>
-          </div>
-
-          <div className="max-[900px]: ">
-              <div className="flex  items-center gap-6">
-                <ul className="flex items-center w-full gap-5">
-                <li className="font-medium ">Condomínio Villas do Atlántico</li>
-                </ul>
-            </div>
-          </div> 
-      </Carousel>
-      </div>
-     </div >
-        </section> */}
-
         <section className="w-full   bg-[#EFF2FF]" id="section3">
-          <div className="w-full h-full flex flex-col items-center  pt-20 pb-20  gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
+          <div className="bg-[red] w-full h-full flex flex-col items-center  pt-20 pb-20 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
             <h1 className="text-5xl font-bold max-w-[900px] gap-3">Nossos Clientes</h1>
-           
-            <Carousel toShow={3}>
-              <div className="p-2 w-full bg-transparent">
-              <div className="max-[900px]: ">
-              <div className="flex  items-center gap-6 p-2 w-full bg-transparent ">
-                <ul className="flex items-center w-full gap-5">
-                  <li className="font-medium">Condomínio Vereda das Flores</li>
-                  <div className="bg-gray-300 w-[1px] h-7"></div>
-                  <li className="font-medium "> Urbanização Boa Vida</li>
-                </ul>
-              </div>
-             </div>
-              </div>
+            <div className="bg-[green] ">
+              <Carousel toShow={3}>
+                <div className="flex p-2 w-full bg-transparent ">
+                  <div className="max-[900px]: ">
+                    <div className="flex  items-center gap-6 p-2 w-full bg-transparent">
+                      <ul className="flex items-center w-full gap-5">
+                        <li className="font-medium">Condomínio Vereda das Flores</li>
+                        <div className="bg-gray-300 w-[1px] h-7"></div>
+                        <li className="font-medium "> Urbanização Boa Vida</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
 
               <div className="p-2 w-full bg-transparent">
                 <div className="max-[900px]: ">
-              <div className="flex  items-center gap-6 p-2 w-full bg-transparent ">
-                <ul className="flex items-center w-full gap-5">
-                <div className="bg-gray-300 w-[1px] h-7"></div>
-                  <li className="font-medium ">Condomínio Rosa Linda</li>
-                  <div className="bg-gray-300 w-[1px] h-7"></div>
-                  <li className="font-medium ">Condomínio Riviera </li>
-                </ul>
-              </div>
-          </div>
+                  <div className="flex items-center gap-6 p-2 w-full bg-transparent">
+                    <ul className="flex items-center gap-5 ">
+                      <div className="bg-gray-300 w-[1px] h-7"></div>
+                      <li className="font-medium ">Condomínio Rosa Linda</li>
+                      <div className="bg-gray-300 w-[1px] h-7"></div>
+                      <li className="font-medium ">Condomínio Riviera </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
 
-          <div className="max-[900px]: ">
-              <div className="flex  items-center gap-6 p-2 w-full bg-transparent">
-                <ul className="flex items-center w-full gap-5">
-                <div className="bg-gray-300 w-[1px] h-7"></div>
-                <li className="font-medium ">Condomínio Villas do Atlántico</li>
-                <div className="bg-gray-300 w-[1px] h-7"></div>
-                </ul>
+                <div className="max-[900px]: ">
+                    <div className="flex  items-center gap-6 p-2 w-full bg-transparent mt-4">
+                      <ul className="flex items-center w-full gap-5">
+                      <div className="bg-gray-300 w-[1px] h-7"></div>
+                      <li className="font-medium ">Condomínio Villas do Atlántico</li>
+                      <div className="bg-gray-300 w-[1px] h-7"></div>
+                      </ul>
+                  </div>
+                </div> 
+                </Carousel>
             </div>
-          </div> 
-      
-            </Carousel>
           </div>
-        </section>
+       </section>
 
         <section className="w-full" id="section2">
           <div className="flex bg-[url('assets/left-top1.svg')] pt-32 pb-20 items-center container mx-auto px-8  bg-no-repeat bg-cover  bg-left">
@@ -249,6 +212,7 @@ function LandingPage() {
             <div className="max-[900px]:hidden">
               <img src="girl.png" alt="" />
             </div>
+            
           </div>
         </section>
 
