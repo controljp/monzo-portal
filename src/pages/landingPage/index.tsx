@@ -142,8 +142,17 @@ function LandingPage() {
       <main>
         
         <section className="w-full bg-[#EFF2FF]" id="section3">
+
+          <div className="w-full  min-[900px]:hidden flex items-center  justify-between pt-2 pb-2 gap-6">
+            <div className="w-full flex gap-2 ">
+            </div>
+            <h1 className="min-[900px]:hidden w-full flex font-bold max-w-[900px] gap-3 text-[20px]">Nossos Clientes</h1>
+          </div>
+
           <div className="w-full h-full flex flex-col items-center  pt-20 pb-20 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg-no-repeat">
-            <h1 className="text-5xl font-bold max-w-[900px] gap-3">Nossos Clientes</h1>
+            <h1 className="text-5xl font-bold max-[900px]:hidden max-w-[900px] gap-3">Nossos Clientes</h1>
+            <h1 className="min-[900px]:hidden  font-bold max-w-[900px] gap-3 text-[30px]">Nossos Clientes</h1>
+
             {/* <div className=" "> */}
               <Carousel toShow={5}>
                 <div className="flex p-2 w-full bg-transparent ">
