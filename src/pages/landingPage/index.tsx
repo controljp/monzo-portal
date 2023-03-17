@@ -8,7 +8,6 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 
-
 import { Link } from "react-scroll";
 import Carousel from "../../components/Carousel";
 
@@ -142,47 +141,66 @@ function LandingPage() {
       </header>
       <main>
         
-        <section className="w-full   bg-[#EFF2FF]" id="section3">
-          <div className="w-full h-full flex flex-col items-center  pt-20 pb-20 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
+        <section className="w-full bg-[#EFF2FF]" id="section3">
+          <div className="w-full h-full flex flex-col items-center  pt-20 pb-20 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg-no-repeat">
             <h1 className="text-5xl font-bold max-w-[900px] gap-3">Nossos Clientes</h1>
             {/* <div className=" "> */}
-              <Carousel toShow={3}>
+              <Carousel toShow={5}>
                 <div className="flex p-2 w-full bg-transparent ">
                   <div className="max-[900px]: ">
-                    <div className="flex  items-center gap-6 p-2 w-full bg-transparent">
+                    <div className="w-[260px] flex items-center gap-6 pt-2 bg-transparent ">
                       <ul className="flex items-center w-full gap-5">
                         <li className="font-medium">Condomínio Vereda das Flores</li>
-                        <div className="bg-gray-300 w-[1px] h-7"></div>
-                        <li className="font-medium "> Urbanização Boa Vida</li>
                       </ul>
+                      <div className="bg-gray-300 w-[1px] h-7"></div>
                     </div>
                   </div>
                 </div>
 
-              <div className="p-2 w-full bg-transparent">
-                <div className="max-[900px]: ">
-                  <div className="flex items-center gap-6 p-2 w-full bg-transparent">
-                    <ul className="flex items-center gap-5 ">
+                <div className="flex p-2 w-full bg-transparent">
+                  <div className="max-[900px]: ">
+                    <div className="w-[250px] flex items-center gap-6 p-2 bg-transparent ">
+                      <ul className="flex items-center w-full gap-5">
+                        <li className="font-medium "> Urbanização Boa Vida</li>
+                      </ul>
                       <div className="bg-gray-300 w-[1px] h-7"></div>
-                      <li className="font-medium ">Condomínio Rosa Linda</li>
-                      <div className="bg-gray-300 w-[1px] h-7"></div>
-                      <li className="font-medium ">Condomínio Riviera </li>
-                    </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-                <div className="max-[900px]: ">
-                    <div className="flex  items-center gap-6 p-2 w-full bg-transparent mt-4">
+                <div className="flex pt-2 w-full bg-transparent ">
+                  <div className="max-[900px]: ">
+                  <div className="w-[240px] flex items-center gap-6 pt-2 bg-transparent ">
                       <ul className="flex items-center w-full gap-5">
-                      <div className="bg-gray-300 w-[1px] h-7"></div>
-                      <li className="font-medium ">Condomínio Villas do Atlántico</li>
-                      <div className="bg-gray-300 w-[1px] h-7"></div>
+                      <li className="font-medium ">Condomínio Rosa Linda</li>
                       </ul>
+                      <div className="bg-gray-300 w-[1px] h-7"></div>
+                    </div>
                   </div>
-                </div> 
+                </div>
+
+              <div className="flex pt-2 w-full bg-transparent ">
+                  <div className="max-[900px]: ">
+                  <div className="w-[230px] flex items-center gap-6 pt-2 bg-transparent ">
+                      <ul className="flex items-center w-full gap-5">
+                      <li className="font-medium ">Condomínio Rivieira</li>
+                      </ul>
+                      <div className="bg-gray-300 w-[1px] h-7"></div>
+                    </div>
+                  </div>
+                </div>
+
+                  <div className="p-2 w-full bg-transparent">
+                    <div className="max-[900px]: ">
+                    <div className="w-[300px] flex items-center gap-6 pt-2 bg-transparent ">
+                        <ul className="flex items-center w-full gap-5 ">
+                          <li className="font-medium">Condomínio Villas do Atlántico</li>
+                       </ul>
+                        <div className="bg-gray-300 w-[1px] h-7"></div>
+                     </div>
+                    </div>
+                  </div> 
                 </Carousel>
-            {/* </div> */}
           </div>
        </section>
 
@@ -507,7 +525,7 @@ function LandingPage() {
                   className="font-normal py-5 max-[900px]:text-base text-xl border-b border-[#9F9F9F]"
                   onClick={() => handleOpen(1)}
                 >
-                  <div className="flex gap-3 w-full">  
+                  <div className="flex gap-3 w-full h-[50px]">  
                     <span className="w-[80%]"> Como o meu Condomínio pode aderir ao Monzo Yetu?</span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
@@ -529,7 +547,7 @@ function LandingPage() {
                   onClick={() => handleOpen(2)}
                   className="flex  justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
                 >
-                  <div className="flex gap-3 w-full">  
+                  <div className="flex gap-3 w-full h-[50px] ">  
                     <span className="w-[80%]"> O sistema Monzo Yetu é adaptável a qualquer país? </span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
@@ -547,7 +565,7 @@ function LandingPage() {
                   onClick={() => handleOpen(3)}
                   className="flex  justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
                 >
-                  <div className="flex gap-3 w-full">  
+                  <div className="flex gap-3 w-full h-[50px] ">  
                     <span className="w-[80%]"> O sistema Monzo Yetu pode ser usado em residencias ou empresas? </span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
@@ -569,7 +587,7 @@ function LandingPage() {
                   onClick={() => handleOpen(4)}
                   className="flex  justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
                 >
-                  <div className="flex gap-3 w-full">  
+                  <div className="flex gap-3 w-full h-[50px] ">  
                     <span className="w-[80%]"> Quem pode ter acesso aos dados? </span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
@@ -610,7 +628,7 @@ function LandingPage() {
                   <div className="flex gap-3 w-full">  
                     <span className="w-[80%]"> Um morador pode dar acesso aos seus agregados para fazerem agendamentos? </span>
                     <span className=" ">
-                      <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
+                      <button className="p-3 absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
                         <IoMdAdd size={20} />
                       </button>
                     </span>
@@ -627,9 +645,9 @@ function LandingPage() {
                   onClick={() => handleOpen(7)}
                   className="flex justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
                 >
-                  <div className="flex gap-3 w-full">  
-                       <span className="w-[80%]"> Quantos agregados um morador pode adicionar? </span>
-                    <span className="pl-3 absolute  right-0  text-center">
+                  <div className="flex gap-3 w-full h-[50px]">  
+                       <span className="w-[80%] "> Quantos agregados um morador pode adicionar? </span>
+                    <span className="pb-20 absolute  right-0  text-center ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
                         <IoMdAdd size={20} />
                       </button>
