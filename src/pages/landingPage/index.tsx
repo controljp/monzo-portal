@@ -248,7 +248,7 @@ function LandingPage() {
             </div>
             </div>
 
-          <div className=" min-[500px]:hidden w-full h-full flex flex-col items-center  pt-20 pb-20 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg-no-repeat">
+          <div className=" min-[500px]:hidden w-full h-full flex flex-col items-center  pt-1 pb-1 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg-no-repeat">
               <Carousel toShow={5}>
                 <div className="flex p-2 w-full bg-transparent ">
                   <div className="max-[500px]: ">
@@ -345,7 +345,7 @@ function LandingPage() {
             </h1>
             <p className="max-w-[900px]">Todos os módulos do sistema</p>
             <div className="mt-12 grid  grid-cols-4 max-[900px]:grid-cols-2">
-              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center  items-center flex-col border-r border-b border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center  items-center flex-col border-r border-b border-[#cbc7c7]">
                 <img src="venda.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Gestão de Venda e Imóvel
@@ -356,7 +356,7 @@ function LandingPage() {
                  de venda dos imóveis.
                 </p>
               </div>
-              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center  items-center flex-col border-r border-b max-[900px]:border-r-0 border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center  items-center flex-col border-r border-b max-[900px]:border-r-0 border-[#cbc7c7]">
                 <img src="comunica.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Gestão de Comunicação
@@ -366,14 +366,14 @@ function LandingPage() {
                 administração.
                 </p>
               </div>
-              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center  items-center flex-col border-r border-b border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center  items-center flex-col border-r border-b border-[#cbc7c7]">
                 <img src="suporte.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">Suporte</h1>
                 <p className="max-w-[900px] text-xs">
                  Equipa dedicada para dar suporte 24/7.
                 </p>
               </div>
-              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center  items-center flex-col  border-b border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center  items-center flex-col  border-b border-[#cbc7c7]">
                 <img src="vigilance.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">Vigilância</h1>
                 <p className="max-w-[900px] text-xs">
@@ -381,7 +381,7 @@ function LandingPage() {
                  permitindo a visualização de imagens e o registro de ocorrências em tempo real.
                 </p>
               </div>
-              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center items-center flex-col border-r max-[900px]:border-b border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center items-center flex-col border-r max-[900px]:border-b border-[#cbc7c7]">
                 <img src="cobranca.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Gestão de Cobranças
@@ -391,7 +391,7 @@ function LandingPage() {
                  permitindo a gestão de contas a receber de forma mais eficiente. 
                 </p>
               </div>
-              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center items-center flex-col border-r max-[900px]:border-b max-[900px]:border-r-0 border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center items-center flex-col border-r max-[900px]:border-b max-[900px]:border-r-0 border-[#cbc7c7]">
                 <img src="residencia.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Gestão de Residências
@@ -401,7 +401,7 @@ function LandingPage() {
                   visitantes.
                 </p>
               </div>
-              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center items-center flex-col border-r  border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center items-center flex-col border-r  border-[#cbc7c7]">
                 <img src="acesso.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Gestão de Acesso
@@ -412,7 +412,7 @@ function LandingPage() {
                  notificações em tempo real.
                 </p>
               </div>
-              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center items-center flex-col   border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center items-center flex-col   border-[#cbc7c7]">
                 <img src="config.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Configurações
@@ -885,7 +885,7 @@ function LandingPage() {
           </div>
         </section>
 
-        <section className="min-[500px]:hidden h-[600px] w-full bg-[#EFF2FF]" id="section3">
+        <section className="min-[500px]:hidden h-[640px] w-full bg-[#EFF2FF]" id="section3">
           <div className="w-full h-[600px] flex flex-col items-center pt-0  container mx-auto px-8 bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
             <h1 className="text-xl pt-1 font-bold">Notícias</h1>
             <p className="max-w-[900px]  min-[900px]:text-xl pb-[4px] ">
@@ -915,7 +915,7 @@ function LandingPage() {
                       saber mais
                       <BsArrowRight className="font-bold" />
                     </a>
-                    <div className="p-2 border-l border-t">04 Janeiro 2023</div>
+                    <div className="p-2 border-l border-t text-[12.5px]">04 Dezembro 2023</div>
                   </div>
                 </div>
               </div>
@@ -943,7 +943,7 @@ function LandingPage() {
                       saber mais
                       <BsArrowRight className="font-bold" />
                     </a>
-                    <div className="p-2 border-l border-t">04 Janeiro 2023</div>
+                    <div className="p-2 border-l border-t text-[12.5px]">04 Janeiro 2023</div>
                   </div>
                 </div>
               </div>
@@ -971,7 +971,7 @@ function LandingPage() {
                       saber mais
                       <BsArrowRight className="font-bold" />
                     </a>
-                    <div className="p-2 border-l border-t">04 Janeiro 2023</div>
+                    <div className="p-2 border-l border-t text-[12.5px]">04 Janeiro 2023</div>
                   </div>
                 </div>
               </div>
@@ -999,7 +999,7 @@ function LandingPage() {
                       saber mais
                       <BsArrowRight className="font-bold" />
                     </a>
-                    <div className="p-2 border-l border-t">04 Janeiro 2023</div>
+                    <div className="p-2 border-l border-t text-[12.5px]">04 Janeiro 2023</div>
                   </div>
                 </div>
               </div>
@@ -1125,7 +1125,7 @@ function LandingPage() {
              max-[900px]:gap-1"
           >
             <div className="flex items-center gap-4">
-              <a href="https://www.youtube.com/@monzoyetu">
+              <a href="https://www.youtube.com/@monzoyetu" target="_blank">
               <AiFillYoutube size={32} className="text-[#283990]"/>
               </a>
               <a href="">
@@ -1141,7 +1141,9 @@ function LandingPage() {
             <div>
               <p className="max-w-[900px] text-xs text-center">
                 O Sistema MonzoYetu é um produto da empresa
-                <span className="text-[#283990]"> ControlJP.</span>
+                <span className="text-[#283990]"> 
+                  <a href="http://www.controljp.com" target="_blank"> ControlJP. </a>  
+                </span>
               </p>
             </div>
           </div>
