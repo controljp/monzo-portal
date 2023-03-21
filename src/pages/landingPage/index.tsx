@@ -13,7 +13,7 @@ import Carousel from "../../components/Carousel";
 
 import "react-multi-carousel/lib/styles.css";
 import CarouselHeader from "../../components/CarouselHeader";
-import { IoMdAdd } from "react-icons/io";
+import { IoMdAdd, IoMdRemove } from "react-icons/io";
 import bgDesktop from "../../assets/desktop.svg";
 import { AiFillInstagram, AiFillLinkedin, AiFillYoutube, AiTwotoneSetting } from "react-icons/ai";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -630,17 +630,18 @@ function LandingPage() {
                     <span className="w-[80%]"> Como o meu Condomínio pode aderir ao Monzo Yetu?</span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
-                        <IoMdAdd size={20} />
+                      {open === 1 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
                       </button>
                     </span>
                   </div>
                 </AccordionHeader>
                 <AccordionBody>
-                  Entrando em contato com a ControlJP, pelos seguintes meios: <br />
-
-                  e-mail: geral@monzoyetu.com 
-                  Telefone: +244 924266041
-
+                  Entrando em 
+                <Link to="section4" smooth={true} duration={500} className="w-full cursor-pointer transition-colors hover:text-blue-900 text-lg"
+                 >
+                 <span className="text-[#0000ff]"> contato </span>  
+              </Link>
+              com a ControlJP. <br />
                 </AccordionBody>
               </Accordion>
               <Accordion open={open === 2}>
@@ -652,7 +653,7 @@ function LandingPage() {
                     <span className="w-[80%]"> O sistema Monzo Yetu é adaptável a qualquer país? </span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
-                        <IoMdAdd size={20} />
+                      {open === 2 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
                       </button>
                     </span>
                   </div>
@@ -670,7 +671,7 @@ function LandingPage() {
                     <span className="w-[80%]"> O sistema Monzo Yetu pode ser usado em residencias ou empresas? </span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
-                        <IoMdAdd size={20} />
+                      {open === 3 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
                       </button>
                     </span>
                   </div>
@@ -692,7 +693,7 @@ function LandingPage() {
                     <span className="w-[80%]"> Quem pode ter acesso aos dados? </span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
-                        <IoMdAdd size={20} />
+                      {open === 4 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
                       </button>
                     </span>
                   </div>
@@ -711,7 +712,7 @@ function LandingPage() {
                     <span className="w-[80%]"> Como é feito o cadastro dos usuarios para liberar o acesso ao aplicativo? </span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
-                        <IoMdAdd size={20} />
+                      {open === 5 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
                       </button>
                     </span>
                   </div>
@@ -730,7 +731,7 @@ function LandingPage() {
                     <span className="w-[80%]"> Um morador pode dar acesso aos seus agregados para fazerem agendamentos? </span>
                     <span className=" ">
                       <button className="p-3 absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
-                        <IoMdAdd size={20} />
+                      {open === 6 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
                       </button>
                     </span>
                   </div>
@@ -750,7 +751,7 @@ function LandingPage() {
                        <span className="w-[80%] "> Quantos agregados um morador pode adicionar? </span>
                     <span className="pb-20 absolute  right-0  text-center ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
-                        <IoMdAdd size={20} />
+                         {open === 7 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
                       </button>
                     </span>
                   </div>
