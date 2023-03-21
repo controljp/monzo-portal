@@ -127,7 +127,7 @@ function LandingPage() {
                 <input
                   type="text"
                   placeholder="Seu endereço de e-mail"
-                  className="min-[900px]:w-96 p-1 h-12 placeholder:text-[#4D4D4D] placeholder:text-xl placeholder:font-light indent-7 max-[900px]:indent-3"
+                  className="min-[900px]:w-96 p-1 h-12 max-[7680px]:placeholder:text-[14px] max-[500px]:placeholder:text-[18px] placeholder:text-xl placeholder:font-light indent-7 max-[500px]:indent-3"
                 />
                 <button className="w-20 p-1 h-12 text-gray-50 bg-[#283990] flex items-center justify-center">
                   Entrar
@@ -140,26 +140,121 @@ function LandingPage() {
         </div>
       </header>
       <main>
-        
         <section className="w-full bg-[#EFF2FF]" id="section3">
+        <div className=" max-[900px]:hidden max-w-[900px]:hidden w-full flex items-center  pt-2 pb-2 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg-no-repeat" >
+                <h1 className="text-left mr-8 container max-[900px]:hidden font-bold w-[210px] text-[35px]">Nossos Clientes</h1>
+                 <div className="w-[90%]">
+                        <Carousel toShow={3}>
+                  <div className="flex items-center pt-2 bg-transparent ">
+                    <div className="flex items-center gap-6 pt-2 bg-transparent">
+                      <ul className="text-center items-center w-full gap-5">
+                        <li className="font-medium">Condomínio Vereda das Flores</li>
+                      </ul>
+                    <div className="bg-gray-300 w-[1px] h-7"></div>
+                  </div>
+                </div>
 
-          <div className="w-full  min-[900px]:hidden flex items-center  justify-between pt-2 pb-2 gap-6">
-            <div className="w-full flex gap-2 ">
+                <div className="flex items-center pt-2 bg-transparent ">
+                    <div className="flex items-center gap-6 pt-2 bg-transparent">
+                      <ul className="text-center items-center w-full gap-5">
+                        <li className="font-medium">Urbanização Boa Vida</li>
+                      </ul>
+                    <div className="bg-gray-300 w-[1px] h-7"></div>
+                  </div>
+                </div>
+
+                <div className="flex items-center pt-2 bg-transparent ">
+                    <div className="flex items-center gap-6 pt-2 bg-transparent">
+                      <ul className="text-center items-center w-full gap-5">
+                        <li className="font-medium">Condomínio Rosa Linda</li>
+                      </ul>
+                    <div className="bg-gray-300 w-[1px] h-7"></div>
+                  </div>
+                </div>
+
+                <div className="flex items-center pt-2 bg-transparent ">
+                    <div className="flex items-center gap-6 pt-2 bg-transparent">
+                      <ul className="text-center items-center w-full gap-5">
+                        <li className="font-medium"> Condomínio Rivieira</li>
+                      </ul>
+                    <div className="bg-gray-300 w-[1px] h-7"></div>
+                  </div>
+                </div>
+
+                <div className="flex items-center pt-2 bg-transparent">
+                    <div className="flex items-center gap-6 pt-2 bg-transparent">
+                      <ul className="text-center items-center w-full gap-5">
+                        <li className="font-medium"> Condomínio Villas do Atlántico</li>
+                      </ul>
+                    <div className="bg-gray-300 w-[1px] h-7"></div>
+                  </div>
+                </div>
+
+              </Carousel>
             </div>
-            <h1 className="min-[900px]:hidden w-full flex font-bold max-w-[900px] gap-3 text-[20px]">Nossos Clientes</h1>
-          </div>
+            </div>
 
-          <div className="w-full h-full flex flex-col items-center  pt-20 pb-20 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg-no-repeat">
-            <h1 className="text-5xl font-bold max-[900px]:hidden max-w-[900px] gap-3">Nossos Clientes</h1>
-            <h1 className="min-[900px]:hidden  font-bold max-w-[900px] gap-3 text-[30px]">Nossos Clientes</h1>
+            <h1 className="text-center pt-8 container min-[500px]:hidden  font-bold gap-3 text-[35px] f">Nossos Clientes</h1>
+              <div className=" max-[500px]:hidden min-[768px]:hidden w-full flex items-center  pt-2 pb-2 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg-no-repeat" >
+                <h1 className="text-center mr-8 container max-[500px]:hidden min-[768px]:hidden font-bold max-w-[640px]:hidden text-[35px]">Nossos Clientes</h1>
+                 <div className="w-[300px]">
+                        <Carousel toShow={2}>
+                  <div className="flex items-center pt-2 bg-transparent ">
+                    <div className="flex items-center gap-6 pt-2 bg-transparent">
+                      <ul className="text-center items-center w-full gap-5">
+                        <li className="font-medium">Condomínio Vereda das Flores</li>
+                      </ul>
+                    <div className="bg-gray-300 w-[1px] h-7"></div>
+                  </div>
+                </div>
 
-            {/* <div className=" "> */}
+                <div className="flex items-center pt-2 bg-transparent ">
+                    <div className="flex items-center gap-6 pt-2 bg-transparent">
+                      <ul className="text-center items-center w-full gap-5">
+                        <li className="font-medium">Urbanização Boa Vida</li>
+                      </ul>
+                    <div className="bg-gray-300 w-[1px] h-7"></div>
+                  </div>
+                </div>
+
+                <div className="flex items-center pt-2 bg-transparent ">
+                    <div className="flex items-center gap-6 pt-2 bg-transparent">
+                      <ul className="text-center items-center w-full gap-5">
+                        <li className="font-medium">Condomínio Rosa Linda</li>
+                      </ul>
+                    <div className="bg-gray-300 w-[1px] h-7"></div>
+                  </div>
+                </div>
+
+                <div className="flex items-center pt-2 bg-transparent ">
+                    <div className="flex items-center gap-6 pt-2 bg-transparent">
+                      <ul className="text-center items-center w-full gap-5">
+                        <li className="font-medium"> Condomínio Rivieira</li>
+                      </ul>
+                    <div className="bg-gray-300 w-[1px] h-7"></div>
+                  </div>
+                </div>
+
+                <div className="flex items-center pt-2 bg-transparent">
+                    <div className="flex items-center gap-6 pt-2 bg-transparent">
+                      <ul className="text-center items-center w-full gap-5">
+                        <li className="font-medium"> Condomínio Villas do Atlántico</li>
+                      </ul>
+                    <div className="bg-gray-300 w-[1px] h-7"></div>
+                  </div>
+                </div>
+
+              </Carousel>
+            </div>
+            </div>
+
+          <div className=" min-[500px]:hidden w-full h-full flex flex-col items-center  pt-20 pb-20 gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg-no-repeat">
               <Carousel toShow={5}>
                 <div className="flex p-2 w-full bg-transparent ">
-                  <div className="max-[900px]: ">
+                  <div className="max-[500px]: ">
                     <div className="w-[260px] flex items-center gap-6 pt-2 bg-transparent ">
-                      <ul className="flex items-center w-full gap-5">
-                        <li className="font-medium">Condomínio Vereda das Flores</li>
+                      <ul className="text-center flex items-center w-full gap-5">
+                        <li className="font-medium"> Condomínio Vereda das Flores </li>
                       </ul>
                       <div className="bg-gray-300 w-[1px] h-7"></div>
                     </div>
@@ -167,10 +262,10 @@ function LandingPage() {
                 </div>
 
                 <div className="flex p-2 w-full bg-transparent">
-                  <div className="max-[900px]: ">
+                  <div className="max-[500px]: ">
                     <div className="w-[250px] flex items-center gap-6 p-2 bg-transparent ">
                       <ul className="flex items-center w-full gap-5">
-                        <li className="font-medium "> Urbanização Boa Vida</li>
+                        <li className="font-medium "> Urbanização Boa Vida </li>
                       </ul>
                       <div className="bg-gray-300 w-[1px] h-7"></div>
                     </div>
@@ -181,18 +276,18 @@ function LandingPage() {
                   <div className="max-[900px]: ">
                   <div className="w-[240px] flex items-center gap-6 pt-2 bg-transparent ">
                       <ul className="flex items-center w-full gap-5">
-                      <li className="font-medium ">Condomínio Rosa Linda</li>
+                      <li className="font-medium "> Condomínio Rosa Linda </li>
                       </ul>
                       <div className="bg-gray-300 w-[1px] h-7"></div>
                     </div>
                   </div>
                 </div>
 
-              <div className="flex pt-2 w-full bg-transparent ">
+                <div className="flex pt-2 w-full bg-transparent ">
                   <div className="max-[900px]: ">
                   <div className="w-[230px] flex items-center gap-6 pt-2 bg-transparent ">
                       <ul className="flex items-center w-full gap-5">
-                      <li className="font-medium ">Condomínio Rivieira</li>
+                      <li className="font-medium "> Condomínio Rivieira </li>
                       </ul>
                       <div className="bg-gray-300 w-[1px] h-7"></div>
                     </div>
@@ -203,7 +298,7 @@ function LandingPage() {
                     <div className="max-[900px]: ">
                     <div className="w-[300px] flex items-center gap-6 pt-2 bg-transparent ">
                         <ul className="flex items-center w-full gap-5 ">
-                          <li className="font-medium">Condomínio Villas do Atlántico</li>
+                          <li className="font-medium"> Condomínio Villas do Atlántico </li>
                        </ul>
                         <div className="bg-gray-300 w-[1px] h-7"></div>
                      </div>
@@ -250,7 +345,7 @@ function LandingPage() {
             </h1>
             <p className="max-w-[900px]">Todos os módulos do sistema</p>
             <div className="mt-12 grid  grid-cols-4 max-[900px]:grid-cols-2">
-              <div className="flex gap-3 p-9 text-center  items-center flex-col border-r border-b border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center  items-center flex-col border-r border-b border-[#cbc7c7]">
                 <img src="venda.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Gestão de Venda e Imóvel
@@ -259,10 +354,9 @@ function LandingPage() {
                   O sistema facilita a comercialização de propriedades imobiliárias,
                   otimizando o processo
                  de venda dos imóveis.
-                 
                 </p>
               </div>
-              <div className="flex gap-3 p-9 text-center  items-center flex-col border-r border-b max-[900px]:border-r-0 border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center  items-center flex-col border-r border-b max-[900px]:border-r-0 border-[#cbc7c7]">
                 <img src="comunica.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Gestão de Comunicação
@@ -272,14 +366,14 @@ function LandingPage() {
                 administração.
                 </p>
               </div>
-              <div className="flex gap-3 p-9 text-center  items-center flex-col border-r border-b border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center  items-center flex-col border-r border-b border-[#cbc7c7]">
                 <img src="suporte.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">Suporte</h1>
                 <p className="max-w-[900px] text-xs">
                  Equipa dedicada para dar suporte 24/7.
                 </p>
               </div>
-              <div className="flex gap-3 p-9 text-center  items-center flex-col  border-b border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center  items-center flex-col  border-b border-[#cbc7c7]">
                 <img src="vigilance.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">Vigilância</h1>
                 <p className="max-w-[900px] text-xs">
@@ -287,7 +381,7 @@ function LandingPage() {
                  permitindo a visualização de imagens e o registro de ocorrências em tempo real.
                 </p>
               </div>
-              <div className="flex gap-3 p-9 text-center items-center flex-col border-r max-[900px]:border-b border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center items-center flex-col border-r max-[900px]:border-b border-[#cbc7c7]">
                 <img src="cobranca.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Gestão de Cobranças
@@ -297,7 +391,7 @@ function LandingPage() {
                  permitindo a gestão de contas a receber de forma mais eficiente. 
                 </p>
               </div>
-              <div className="flex gap-3 p-9 text-center items-center flex-col border-r max-[900px]:border-b max-[900px]:border-r-0 border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center items-center flex-col border-r max-[900px]:border-b max-[900px]:border-r-0 border-[#cbc7c7]">
                 <img src="residencia.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Gestão de Residências
@@ -307,7 +401,7 @@ function LandingPage() {
                   visitantes.
                 </p>
               </div>
-              <div className="flex gap-3 p-9 text-center items-center flex-col border-r  border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center items-center flex-col border-r  border-[#cbc7c7]">
                 <img src="acesso.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Gestão de Acesso
@@ -318,7 +412,7 @@ function LandingPage() {
                  notificações em tempo real.
                 </p>
               </div>
-              <div className="flex gap-3 p-9 text-center items-center flex-col   border-[#cbc7c7]">
+              <div className="flex gap-3 max-[500px]:p-0 p-9 text-center items-center flex-col   border-[#cbc7c7]">
                 <img src="config.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">
                   Configurações
@@ -434,9 +528,7 @@ function LandingPage() {
         </section>
         <section className="w-full   ">
           <div
-            className="flex bg-[url('assets/left-top1.svg')] pt-28 pb-20  flex-col  container mx-auto px-8  bg-no-repeat bg-cover  bg-left
-         
-          "
+            className="flex bg-[url('assets/left-top1.svg')] pt-28 pb-20  flex-col  container mx-auto px-8  bg-no-repeat bg-cover  bg-left"
           >
             <div className="flex items-center justify-center flex-col">
               <h1 className="text-3xl text-center font-bold max-w-[900px] ">
@@ -520,7 +612,7 @@ function LandingPage() {
         </section>
 
 
-<section className="w-full   ">
+        <section className="w-full">
           <div className="flex bg-[url('assets/left-top1.svg')] pt-32 pb-20 items-center  container mx-auto px-8  bg-no-repeat bg-cover  bg-left">
             <div className="max-[900px]:hidden w-3/4">
               <img src="man-expert.png" alt="" className="" />
@@ -672,8 +764,8 @@ function LandingPage() {
           </div>
         </section> 
 
-        <section className="w-full   bg-[#EFF2FF]" id="section3">
-          <div className="w-full h-full flex flex-col items-center  pt-20 pb-20  gap-2 container mx-auto px-8  bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
+        <section className="max-[500px]:hidden w-full bg-[#EFF2FF]" id="section3">
+          <div className="w-full h-full flex flex-col items-center pt-20 pb-20 gap-2 container mx-auto px-8 bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
             <h1 className="text-5xl font-bold max-w-[900px] ">Notícias</h1>
             <p className="max-w-[900px] min-[900px]:text-xl">
               Todas as Notícias sobre o app
@@ -681,7 +773,7 @@ function LandingPage() {
             <div className="flex items-center mt-10 gap-3 container"></div>
 
             <Carousel toShow={3}>
-              <div className="p-2 w-full bg-transparent">
+              <div className="w-full bg-transparent">
                 <div className="bg-white w-full overflow-hidden rounded-xl">
                   <img
                     src="morador.png"
@@ -793,16 +885,138 @@ function LandingPage() {
           </div>
         </section>
 
+        <section className="min-[500px]:hidden h-[600px] w-full bg-[#EFF2FF]" id="section3">
+          <div className="w-full h-[600px] flex flex-col items-center pt-0  container mx-auto px-8 bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
+            <h1 className="text-xl pt-1 font-bold">Notícias</h1>
+            <p className="max-w-[900px]  min-[900px]:text-xl pb-[4px] ">
+              Todas as Notícias sobre o app
+            </p>
+            <Carousel toShow={3}>
+              <div className="w-full bg-transparent ">
+                <div className="bg-white h-[500px] w-full overflow-hidden rounded-xl">
+                  <img
+                    src="morador.png"
+                    className="h-60 w-full rounded-b-xl"
+                    alt=""
+                  />
+                  <div className="px-4 py-2 flex flex-col gap-2">
+                    <h1 className="text-center container text-[14px] font-bold">
+                      Lorem Ipsum is simply text of the printing and
+                    </h1>
+                    <p className="text-base text-[12px]">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley.
+                    </p>
+                  </div>
+                  <div className="px-4 py-2 flex items-center justify-between">
+                    <a className="w-32 h-9 gap-2 cursor-pointer rounded text-gray-50 text-[14px] bg-[#283990] flex items-center justify-center">
+                      saber mais
+                      <BsArrowRight className="font-bold" />
+                    </a>
+                    <div className="p-2 border-l border-t">04 Janeiro 2023</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-full bg-transparent ">
+                <div className="bg-white h-[500px] w-full overflow-hidden rounded-xl">
+                  <img
+                    src="morador.png"
+                    className="h-60 w-full rounded-b-xl"
+                    alt=""
+                  />
+                  <div className="px-4 py-2 flex flex-col gap-2">
+                    <h1 className="text-center container text-[14px] font-bold">
+                      Lorem Ipsum is simply text of the printing and
+                    </h1>
+                    <p className="text-base text-[12px]">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley.
+                    </p>
+                  </div>
+                  <div className="px-4 py-2 flex items-center justify-between">
+                    <a className="w-32 h-9 gap-2 cursor-pointer rounded text-gray-50 text-[14px] bg-[#283990] flex items-center justify-center">
+                      saber mais
+                      <BsArrowRight className="font-bold" />
+                    </a>
+                    <div className="p-2 border-l border-t">04 Janeiro 2023</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-full bg-transparent ">
+                <div className="bg-white h-[500px] w-full overflow-hidden rounded-xl">
+                  <img
+                    src="morador.png"
+                    className="h-60 w-full rounded-b-xl"
+                    alt=""
+                  />
+                  <div className="px-4 py-2 flex flex-col gap-2">
+                    <h1 className="text-center container text-[14px] font-bold">
+                      Lorem Ipsum is simply text of the printing and
+                    </h1>
+                    <p className="text-base text-[12px]">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley.
+                    </p>
+                  </div>
+                  <div className="px-4 py-2 flex items-center justify-between">
+                    <a className="w-32 h-9 gap-2 cursor-pointer rounded text-gray-50 text-[14px] bg-[#283990] flex items-center justify-center">
+                      saber mais
+                      <BsArrowRight className="font-bold" />
+                    </a>
+                    <div className="p-2 border-l border-t">04 Janeiro 2023</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-full bg-transparent ">
+                <div className="bg-white h-[500px] w-full overflow-hidden rounded-xl">
+                  <img
+                    src="morador.png"
+                    className="h-60 w-full rounded-b-xl"
+                    alt=""
+                  />
+                  <div className="px-4 py-2 flex flex-col gap-2">
+                    <h1 className="text-center container text-[14px] font-bold">
+                      Lorem Ipsum is simply text of the printing and
+                    </h1>
+                    <p className="text-base text-[12px]">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley.
+                    </p>
+                  </div>
+                  <div className="px-4 py-2 flex items-center justify-between">
+                    <a className="w-32 h-9 gap-2 cursor-pointer rounded text-gray-50 text-[14px] bg-[#283990] flex items-center justify-center">
+                      saber mais
+                      <BsArrowRight className="font-bold" />
+                    </a>
+                    <div className="p-2 border-l border-t">04 Janeiro 2023</div>
+                  </div>
+                </div>
+              </div>
+
+            </Carousel>
+          </div>
+        </section>
 
  </main>
 
       <footer className="bg-[#01082E]">
-        <section>
+        <section >
           <div
             id="content1"
             className="py-14 container mx-auto px-8 gap-5 grid grid-cols-3 max-[900px]:grid-cols-1"
           >
-            <div className="flex p-10 liner gap-7 text-white items-center justify-center flex-col">
+            <div className="flex p-10 liner gap-7  text-white items-center justify-center flex-col">
               <div className="w-24 h-24  flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
                 <BsCurrencyDollar size={40} />
               </div>
@@ -889,7 +1103,7 @@ function LandingPage() {
                    Localização
                 </strong>
                 <p className=" font-light text-base max-w-sm">
-                   Urbanização Nova Vida, loja 76.
+                   Urbanização Boa Vida, loja 76.
                 </p>
               </div>
               <div className="flex flex-col">
