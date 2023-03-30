@@ -545,10 +545,10 @@ function LandingPage() {
             className="flex bg-[url('assets/left-top1.svg')] pt-28 pb-20  flex-col  container mx-auto px-8  bg-no-repeat bg-cover  bg-left"
           >
             <div className=" flex items-center justify-center flex-col">
-              <h1 className="text-center font-bold max-w-[900px] text-[25px]">
+              <h1 className="text-center font-bold max-w-[900px] text-[23px]">
                 Equipamentos Associados
               </h1>
-              <p className="max-w-[900px] max-[500px]:text-3xl">
+              <p className="max-w-[900px]">
                 Todos os equipamentos que funcionam com o sistema
               </p>
             </div>
