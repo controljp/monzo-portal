@@ -89,7 +89,7 @@ function LandingPage() {
             </ul>
             <div className="max-[900px]:w-[500px] flex gap-2  ">
              <a href="https://apps.monzoyetu.com">
-               <button className="max-[900px]:w-full min-[768px]:text-[red] p-1 h-12 border border-[#FFF] rounded-sm">
+               <button className="max-[900px]:w-full min-[768px]:v-[180px] p-1 h-12 border border-[#FFF] rounded-sm">
                   Acessar agora
                 </button>
               </a>
@@ -544,17 +544,17 @@ function LandingPage() {
           <div
             className="flex bg-[url('assets/left-top1.svg')] pt-28 pb-20  flex-col  container mx-auto px-8  bg-no-repeat bg-cover  bg-left"
           >
-            <div className="flex items-center justify-center flex-col">
-              <h1 className="text-3xl text-center font-bold max-w-[900px] ">
+            <div className=" flex items-center justify-center flex-col">
+              <h1 className="text-center font-bold max-w-[900px] text-[25px]">
                 Equipamentos Associados
               </h1>
-              <p className="max-w-[900px]">
+              <p className="max-w-[900px] max-[500px]:text-3xl">
                 Todos os equipamentos que funcionam com o sistema
               </p>
             </div>
             <div className="mt-20 grid gap-6 grid-cols-2 max-[900px]:grid-flow-row">
               <div className="max-[768]:w-[1000px] w-full flex rounded-lg  p-9 text-center  items-center flex-col bg-[#EFF2FF] relative">
-                <img src="leitor.png" alt="" className=" max-[768]:w-[800px]"/>
+                <img src="leitor.png" alt=""className="max-[768]:w-[800px]"/>
                 <h1 className="text-sm font-bold  absolute bottom-5 right-12">
                  PDA
                 </h1>
@@ -567,9 +567,9 @@ function LandingPage() {
                 </h1>
               </div>
 
-              <div className="w-full flex  rounded-lg p-9 text-center  items-center flex-col bg-[#ABB9FF] relative">
+              <div className="max-[768px]:w-full max-[768px]:flex w-full flex  rounded-lg p-9 text-center  items-center flex-col bg-[#ABB9FF] relative">
                 <img src="leitor-phone.png" alt="" />
-                <h1 className="text-sm font-bold  absolute bottom-5 right-12">
+                <h1 className="ml-[100px] text-[10px] flex self-center  text-sm font-bold absolute bottom-[5px] right-5 w-[100px]">
                   LEITOR DE ACESSO
                 </h1>
               </div>
@@ -580,6 +580,7 @@ function LandingPage() {
                   CANCELA
                 </h1>
               </div>
+
             </div>
           </div>
         </section>
