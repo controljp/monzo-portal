@@ -87,29 +87,22 @@ function LandingPage() {
                 Contactos
               </Link>
             </ul>
-            <div className="max-[900px]:w-full flex gap-2 ">
+            <div className="max-[900px]:w-[500px] flex gap-2  ">
              <a href="https://apps.monzoyetu.com">
-               <button className="max-[900px]:w-full min-[900px]:w-52 p-1 h-12 border border-[#FFF] rounded-sm">
+               <button className="max-[900px]:w-full min-[768px]:text-[red] p-1 h-12 border border-[#FFF] rounded-sm">
                   Acessar agora
                 </button>
               </a>
-             <a href="#">
-                <button className="w-52 p-1 h-12 text-gray-50 bg-[#283990] flex items-center justify-center gap-4 rounded-sm">
-                  Baixar Manual
-                <BsDownload size={20} />
-                </button>
-              </a>
+             
             </div>
           </div>
           <div className="w-full  min-[900px]:hidden flex items-center  justify-between pt-2 pb-2 gap-6">
             <div className="w-full flex gap-2 ">
-              <button className="w-full p-1 h-12 border border-[#FFF] rounded-sm text-[10px]">
-                Acessar agora
-              </button>
-              <button className="w-full p-1 text-[10px] h-12 text-gray-50 bg-[#283990] flex items-center justify-center gap-4 rounded-sm">
-                Baixar Manual
-                <BsDownload size={20} />
-              </button>
+             <a href="https://apps.monzoyetu.com">
+               <button className="max-[900px]:w-full min-[900px]:w-full p-1 h-12 border-2 border-[#FFF] rounded-sm">
+                  Acessar agora
+                </button>
+              </a>
             </div>
             <img src="logo.svg" alt="" className="max-[900px]:w-[100px]" />
           </div>
@@ -321,7 +314,7 @@ function LandingPage() {
               </p>
               <div className="flex gap-12 mt-9  items-center">
               <a href="#">
-                <button className="w-52 p-1 h-12 text-gray-50 bg-[#283990] flex items-center justify-center gap-4 rounded-sm">
+                <button className=" w-52 p-1 h-12 text-gray-50 bg-[#283990] flex items-center justify-center gap-4 rounded-sm">
                   Baixar Manual
                 <BsDownload size={20} />
                 </button>
@@ -351,9 +344,7 @@ function LandingPage() {
                   Gestão de Venda e Imóvel
                 </h1>
                 <p className="max-w-[900px] text-xs">
-                  O sistema facilita a comercialização de propriedades imobiliárias,
-                  otimizando o processo
-                 de venda dos imóveis.
+                Facilita a comercialização de propriedades imobiliárias, otimizando o seu processo de venda.
                 </p>
               </div>
               <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center  items-center flex-col border-r border-b max-[900px]:border-r-0 border-[#cbc7c7]">
@@ -362,8 +353,7 @@ function LandingPage() {
                   Gestão de Comunicação
                 </h1>
                 <p className="max-w-[900px] text-xs">
-                 O sistema facilita a comunicação entre os moradores, visitantes e a
-                administração.
+                Facilita a comunicação entre os moradores, visitantes e a portaria.
                 </p>
               </div>
               <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center  items-center flex-col border-r border-b border-[#cbc7c7]">
@@ -377,8 +367,7 @@ function LandingPage() {
                 <img src="vigilance.svg" alt="" />
                 <h1 className="text-sm font-bold max-w-[900px] ">Vigilância</h1>
                 <p className="max-w-[900px] text-xs">
-                O sistema oferece soluções em monitoramento e segurança,
-                 permitindo a visualização de imagens e o registro de ocorrências em tempo real.
+                Oferece soluções de monitoramento e segurança, permitindo a visualização de imagens e o registro de ocorrências em tempo real.
                 </p>
               </div>
               <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center items-center flex-col border-r max-[900px]:border-b border-[#cbc7c7]">
@@ -387,8 +376,7 @@ function LandingPage() {
                   Gestão de Cobranças
                 </h1>
                 <p className="max-w-[900px] text-xs">
-                O sistema automatiza e simplifica o processo de recebimento de pagamentos,
-                 permitindo a gestão de contas a receber de forma mais eficiente. 
+                Automatiza e simplifica o processo de recebimento de pagamentos de forma mais eficiente. 
                 </p>
               </div>
               <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center items-center flex-col border-r max-[900px]:border-b max-[900px]:border-r-0 border-[#cbc7c7]">
@@ -397,8 +385,7 @@ function LandingPage() {
                   Gestão de Residências
                 </h1>
                 <p className="max-w-[900px] text-xs">
-                  O sistema permite controlar os acessos dos moradores e
-                  visitantes.
+                    Permite controlar os acessos dos moradores e visitantes.
                 </p>
               </div>
               <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center items-center flex-col border-r  border-[#cbc7c7]">
@@ -407,9 +394,7 @@ function LandingPage() {
                   Gestão de Acesso
                 </h1>
                 <p className="max-w-[900px] text-xs">
-                O sistema permite o
-                  monitoramento de entradas e saídas de pessoas, com 
-                 notificações em tempo real.
+                Permite o monitoramento de entradas e saídas de pessoas, com notificações em tempo real.
                 </p>
               </div>
               <div className="flex gap-3 max-[500px]:p-[0.5rem] p-9 text-center items-center flex-col   border-[#cbc7c7]">
@@ -419,7 +404,6 @@ function LandingPage() {
                 </h1>
                 <p className="max-w-[900px] text-xs">
                   Permite a personalização e criação de perfis de acesso.
-                   Com uma interface amigável e intuitiva.
                 </p>
               </div>
             </div>
@@ -436,30 +420,36 @@ function LandingPage() {
                 Gestão de Morador.
               </h1>
               <p className="max-w-[900px]">
-                Criação de códigos de acesso para visitantes e funcionários.
-                Monitoramento dos agendamentos, entrada e saída dos funcionários
-                afecto as sua residências. Controlo de entrada e saída dos
-                funcionários afecto as suas residências.
+              Conheça as vantagens e as funcionalidades da gestão de moradores:
               </p>
               <ul className="flex flex-col gap-2">
                 <li className="flex items-center gap-2 text-sm">
-                  <Chack /> Código QR de acesso
+                  <Chack /> Melhoria na comunicação entre os moradores e a portaria
                 </li>
                 <li className="flex items-center gap-2 text-sm">
                   <Chack />
-                  Cadastro de gregados
+                  Facilidade no agendamento de visitas
                 </li>
                 <li className="flex items-center gap-2 text-sm">
                   <Chack />
-                  Gestão de Funcionários
+                   Monitoramento de visitas
                 </li>
                 <li className="flex items-center gap-2 text-sm">
-                  <Chack /> Agendar visita
+                  <Chack />Código QR de acesso
                 </li>
+
+                <li className="flex items-center gap-2 text-sm">
+                  <Chack />Cadastro de agregados
+                </li>
+
+                <li className="flex items-center gap-2 text-sm">
+                  <Chack />Gestão de Funcionários
+                </li>
+
               </ul>
               <div className="flex gap-7 mt-9  items-center">
                 <div className="flex gap-3  items-center">
-                 <a href="https://play.google.com/store/apps/details?id=ao.tescan.monzoyetu.morador&hl=en&gl=US">
+                  <a href="https://play.google.com/store/apps/details?id=ao.tescan.monzoyetu.morador&hl=en&gl=US">
                     <button>
                       <img src="google.svg" className="h-16" alt="" />
                     </button>
@@ -468,6 +458,13 @@ function LandingPage() {
                   <a href="https://apps.apple.com/us/app/monzoyetu/id1599503143">
                     <button>  
                       <img src="apple.svg" className="h-16" alt=""/>
+                    </button>
+                  </a>
+
+                  <a href="#" className="w-40 ">
+                  <button className="max-[780px]:h-8 max-[780px]:w-[100px] max-[780px]:text-[10px] w-40 h-14 text-gray-50 bg-[#283990] flex items-center justify-center gap-2 rounded-md">
+                      Baixar Manual
+                    <BsDownload size={20} />
                     </button>
                   </a>
                 </div>
@@ -483,24 +480,34 @@ function LandingPage() {
           <div className="flex bg-[url('assets/left-top1.svg')] pt-32 pb-20 items-center  container mx-auto px-8  bg-no-repeat bg-cover  bg-left">
             <div className="w-full h-full flex flex-col   gap-7 ">
               <h1 className="text-3xl font-bold max-w-[900px] ">
-                Gestão de Porteiros
+                  Gestão da Portaria.
               </h1>
               <p className="max-w-[900px]">
-                Melhoria no atendimento dos visitantes, funcionários afectos as
-                residências e prestadores de serviços. Redução de custos com
-                cadernos de apontamentos. Melhoria da imagem dos serviços da
-                portaria.
+              Conheça as vantagens e as funcionalidades da gestão de Portaria:
               </p>
               <ul className="flex flex-col gap-2">
                 <li className="flex items-center gap-2 text-sm">
-                  <Chack /> Gestão de visitantes
+                  <Chack />Maior fluidez no atendimento  
                 </li>
                 <li className="flex items-center gap-2 text-sm">
-                  <Chack /> Gestão de Funcionários
+                  <Chack /> Melhoria da imagem dos serviços da portaria
                 </li>
                 <li className="flex items-center gap-2 text-sm ">
-                  <Chack /> Gestão de Moradores
+                  <Chack /> Melhor controle das entradas e saídas na portaria
                 </li>
+
+                <li className="flex items-center gap-2 text-sm ">
+                  <Chack /> Gestão de visitantes 
+                </li>
+
+                <li className="flex items-center gap-2 text-sm ">
+                  <Chack /> Gestão de funcionários
+                </li>
+
+                <li className="flex items-center gap-2 text-sm ">
+                  <Chack /> Gestão de moradores
+                </li>
+
               </ul>
               <div className="flex gap-7 mt-9  items-center">
                 <div className="flex gap-3  items-center">
@@ -513,6 +520,13 @@ function LandingPage() {
                   <a href="https://apps.apple.com/us/app/monzoyetu/id1599503143">
                     <button>  
                       <img src="apple.svg" className="h-16" alt=""/>
+                    </button>
+                  </a>
+
+                  <a href="#" className="w-40 ">
+                  <button className="max-[780px]:h-8 max-[780px]:w-[100px] max-[780px]:text-[10px] w-40 h-14 text-gray-50 bg-[#283990] flex items-center justify-center gap-2 rounded-md">
+                      Baixar Manual
+                    <BsDownload size={20} />
                     </button>
                   </a>
                 </div>
@@ -538,9 +552,9 @@ function LandingPage() {
                 Todos os equipamentos que funcionam com o sistema
               </p>
             </div>
-            <div className="mt-20 grid gap-6  grid-cols-2  max-[900px]:grid-flow-row   max-[900px]:grid-cols-1 ">
-              <div className="w-full flex rounded-lg  p-9 text-center  items-center flex-col bg-[#EFF2FF] relative">
-                <img src="leitor.png" alt="" />
+            <div className="mt-20 grid gap-6 grid-cols-2 max-[900px]:grid-flow-row">
+              <div className="max-[768]:w-[1000px] w-full flex rounded-lg  p-9 text-center  items-center flex-col bg-[#EFF2FF] relative">
+                <img src="leitor.png" alt="" className=" max-[768]:w-[800px]"/>
                 <h1 className="text-sm font-bold  absolute bottom-5 right-12">
                  PDA
                 </h1>
@@ -612,13 +626,13 @@ function LandingPage() {
         </section>
 
 
-        <section className="w-full">
-          <div className="flex bg-[url('assets/left-top1.svg')] pt-32 pb-20 items-center  container mx-auto px-8  bg-no-repeat bg-cover  bg-left">
+        <section className=" w-full h-full">
+          <div className="flex bg-[url('assets/left-top1.svg')] pt-32 pb-20 items-center container mx-auto px-8  bg-no-repeat bg-cover  bg-left">   
             <div className="max-[900px]:hidden w-3/4">
               <img src="man-expert.png" alt="" className="" />
             </div>
-            <div className="w-full h-full flex flex-col   gap-7 ">
-              <h1 className="text-5xl font-bold max-w-[200px] ">
+            <div className="overflow-y-scroll  scrollbar-track-amber-50 scrollbar-corner-blue-900 h-[600px] w-full flex flex-col gap-7 pr-2 ">
+              <h1 className="text-align:left text-5xl font-bold max-w-[200px]">
                 Perguntas Frequentes
               </h1>
               <Accordion open={open === 1}>
@@ -626,7 +640,7 @@ function LandingPage() {
                   className="font-normal py-5 max-[900px]:text-base text-xl border-b border-[#9F9F9F]"
                   onClick={() => handleOpen(1)}
                 >
-                  <div className="flex gap-3 w-full h-[50px]">  
+                  <div className="flex text-left gap-3 w-full h-[auto]">  
                     <span className="w-[80%]"> Como o meu Condomínio pode aderir ao Monzo Yetu?</span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
@@ -649,7 +663,7 @@ function LandingPage() {
                   onClick={() => handleOpen(2)}
                   className="flex  justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
                 >
-                  <div className="flex gap-3 w-full h-[50px] ">  
+                  <div className="flex text-left gap-3 w-full h-[auto]">  
                     <span className="w-[80%]"> O sistema Monzo Yetu é adaptável a qualquer país? </span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
@@ -665,9 +679,9 @@ function LandingPage() {
               <Accordion open={open === 3}>
                 <AccordionHeader
                   onClick={() => handleOpen(3)}
-                  className="flex  justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
+                  className="flex justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
                 >
-                  <div className="flex gap-3 w-full h-[50px] ">  
+                  <div className="flex text-left gap-3 w-full h-[auto]">  
                     <span className="w-[80%]"> O sistema Monzo Yetu pode ser usado em residencias ou empresas? </span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
@@ -687,9 +701,9 @@ function LandingPage() {
               <Accordion open={open === 4}>
                 <AccordionHeader
                   onClick={() => handleOpen(4)}
-                  className="flex  justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
+                  className="flex justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
                 >
-                  <div className="flex gap-3 w-full h-[50px] ">  
+                  <div className="flex text-left gap-3 w-full h-[auto]">  
                     <span className="w-[80%]"> Quem pode ter acesso aos dados? </span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
@@ -708,8 +722,8 @@ function LandingPage() {
                   onClick={() => handleOpen(5)}
                   className="flex  justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
                 >
-                  <div className="flex gap-3 w-full">  
-                    <span className="w-[80%]"> Como é feito o cadastro dos usuarios para liberar o acesso ao aplicativo? </span>
+                  <div className="flex text-left gap-3 w-full">  
+                    <span className="w-[80%]">Como é feito o cadastro dos usuarios para liberar o acesso ao aplicativo? </span>
                     <span className=" ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
                       {open === 5 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
@@ -718,7 +732,7 @@ function LandingPage() {
                   </div>
                 </AccordionHeader>
                 <AccordionBody>
-                O cadastro e feito apartir do painel de controle de acordo ao local em que o usuario precisa ser cadastrado.
+                   O cadastro e feito apartir do painel de controle de acordo ao local em que o usuario precisa ser cadastrado.
                 </AccordionBody>
               </Accordion>
 
@@ -727,7 +741,7 @@ function LandingPage() {
                   onClick={() => handleOpen(6)}
                   className="flex  justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
                 >
-                  <div className="flex gap-3 w-full">  
+                  <div className="flex text-left gap-3 w-full">  
                     <span className="w-[80%]"> Um morador pode dar acesso aos seus agregados para fazerem agendamentos? </span>
                     <span className=" ">
                       <button className="p-3 absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
@@ -747,7 +761,7 @@ function LandingPage() {
                   onClick={() => handleOpen(7)}
                   className="flex justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
                 >
-                  <div className="flex gap-3 w-full h-[50px]">  
+                  <div className="flex text-left gap-3 w-full h-[auto]">  
                        <span className="w-[80%] "> Quantos agregados um morador pode adicionar? </span>
                     <span className="pb-20 absolute  right-0  text-center ">
                       <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
@@ -761,11 +775,161 @@ function LandingPage() {
                 </AccordionBody>
               </Accordion>
 
+             <Accordion open={open === 8}>
+                <AccordionHeader
+                  onClick={() => handleOpen(8)}
+                  className="flex justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
+                >
+                  <div className="flex pb-3 text-left gap-3 w-full h-[auto]">  
+                       <span className="w-[80%] h-[auto]"> 
+                       O morador pode mudar a sua senha de acesso ao aplicativo a 
+                       partir do seu perfil em caso de esquecimento ou perda? 
+                       </span>
+                    <span className="pb-20 absolute  right-0  text-center ">
+                      <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
+                         {open === 8 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
+                      </button>
+                    </span>
+                  </div>
+                </AccordionHeader>
+                  <AccordionBody>
+                  Não. Para se mudar a senha o morador deve pedir um novo reenvio de senha na administração do seu Condomínio.
+                  </AccordionBody>
+              </Accordion>
+
+              <Accordion open={open === 9}>
+                <AccordionHeader
+                  onClick={() => handleOpen(9)}
+                  className="flex justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
+                >
+                  <div className="flex text-left gap-3 w-full h-[auto]">  
+                       <span className="w-[80%] "> 
+                          O aplicativo para o morador tem algum custo para ser instalado? 
+                       </span>
+                    <span className="pb-20 absolute  right-0  text-center ">
+                      <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
+                         {open === 9 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
+                      </button>
+                    </span>
+                  </div>
+                </AccordionHeader>
+                  <AccordionBody>
+                  Não.
+                  </AccordionBody>
+              </Accordion>
+
+              <Accordion open={open === 10}>
+                <AccordionHeader
+                  onClick={() => handleOpen(10)}
+                  className="flex justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
+                >
+                  <div className="flex text-left gap-3 w-full h-[auto]">  
+                       <span className="w-[80%] "> 
+                       ⁃	Onde estará disponível o aplicativo para o morador/usuário?
+                       </span>
+                    <span className="pb-20 absolute  right-0  text-center ">
+                      <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
+                         {open === 10 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
+                      </button>
+                    </span>
+                  </div>
+                </AccordionHeader>
+                  <AccordionBody>
+                  Em qualquer loja Play ou Apple Store. 
+                  </AccordionBody>
+              </Accordion>
+
+              <Accordion open={open === 11}>
+                <AccordionHeader
+                  onClick={() => handleOpen(11)}
+                  className="flex justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
+                >
+                  <div className="flex text-left gap-3 w-full h-[auto]">  
+                       <span className="w-[80%] "> 
+                       O aplicativo para o controle de acesso na portaria é público e disponível nas lojas virtuais?
+                       </span>
+                    <span className="pb-20 absolute  right-0  text-center ">
+                      <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
+                         {open === 11 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
+                      </button>
+                    </span>
+                  </div>
+                </AccordionHeader>
+                  <AccordionBody>
+                  Sim. No entanto o usuário só consegue fazer uso deste aplicativo mediante uma credencial fornecida pela Administração do Condomínio.
+                  </AccordionBody>
+              </Accordion>
+
+              <Accordion open={open === 12}>
+                <AccordionHeader
+                  onClick={() => handleOpen(12)}
+                  className="flex justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
+                >
+                  <div className="flex text-left gap-3 w-full h-[auto]">  
+                       <span className="w-[80%] "> 
+                       Tenho limites de agendamentos diários? 
+                       </span>
+                    <span className="pb-20 absolute  right-0  text-center ">
+                      <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
+                         {open === 12 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
+                      </button>
+                    </span>
+                  </div>
+                </AccordionHeader>
+                  <AccordionBody>
+                  Não.
+                  </AccordionBody>
+              </Accordion>
+
+              <Accordion open={open === 13}>
+                <AccordionHeader
+                  onClick={() => handleOpen(13)}
+                  className="flex justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
+                >
+                  <div className="flex text-left gap-3 w-full h-[auto]">  
+                       <span className="w-[80%] "> 
+                       Empresas estabelecidas em condomínios podem cadastrar os seus funcionários? 
+                       </span>
+                    <span className="pb-20 absolute  right-0  text-center ">
+                      <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
+                         {open === 13 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
+                      </button>
+                    </span>
+                  </div>
+                </AccordionHeader>
+                  <AccordionBody>
+                  Sim.
+                  </AccordionBody>
+              </Accordion>
+
+
+              <Accordion open={open === 14}>
+                <AccordionHeader
+                  onClick={() => handleOpen(14)}
+                  className="flex justify-between max-[900px]:text-base font-normal w-full py-5 items-center gap-2 text-xl border-b border-[#9F9F9F]"
+                >
+                  <div className="flex text-left gap-3 w-full h-[auto]">  
+                       <span className="w-[80%] "> 
+                        Tem limite para o número de cadastro de funcionários? 
+                       </span>
+                    <span className="pb-20 absolute  right-0  text-center ">
+                      <button className="p-3  absolute  right-0  text-center text-white bg-[#283990] rounded-[100%]">
+                         {open === 14 ? <IoMdRemove size={20}/> : <IoMdAdd size={20}/>}
+                      </button>
+                    </span>
+                  </div>
+                </AccordionHeader>
+                  <AccordionBody>
+                         Não.
+                  </AccordionBody>
+              </Accordion>
+
+
             </div>
           </div>
         </section> 
 
-        <section className="max-[500px]:hidden w-full bg-[#EFF2FF]" id="section3">
+        <section className="hidden max-[500px]:hidden w-full bg-[#EFF2FF]" id="section3">
           <div className="w-full h-full flex flex-col items-center pt-20 pb-20 gap-2 container mx-auto px-8 bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
             <h1 className="text-5xl font-bold max-w-[900px] ">Notícias</h1>
             <p className="max-w-[900px] min-[900px]:text-xl">
@@ -886,7 +1050,7 @@ function LandingPage() {
           </div>
         </section>
 
-        <section className="min-[500px]:hidden h-[640px] w-full bg-[#EFF2FF]" id="section3">
+        <section className="hidden min-[500px]:hidden h-[640px] w-full bg-[#EFF2FF]" id="section3">
           <div className="w-full h-[600px] flex flex-col items-center pt-0  container mx-auto px-8 bg-[url('assets/modolo.svg')] bg-cover bg bg-no-repeat">
             <h1 className="text-xl pt-1 font-bold">Notícias</h1>
             <p className="max-w-[900px]  min-[900px]:text-xl pb-[4px] ">
@@ -1015,27 +1179,29 @@ function LandingPage() {
         <section >
           <div
             id="content1"
-            className="py-14 container mx-auto px-8 gap-5 grid grid-cols-3 max-[900px]:grid-cols-1"
+            className="py-14 container mx-auto px-8 gap-5 grid grid-cols-3"
           >
-            <div className="flex p-10 liner gap-7  text-white items-center justify-center flex-col">
-              <div className="w-24 h-24  flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
+            <div className="flex p-10 liner gap-3  max-[780px]:h-[150px] max-[780px]:w-[170] text-white items-center justify-center flex-col">
+              <div className="w-24 h-24 max-[780px]:h-10 max-[780px]:w-10 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
                 <BsCurrencyDollar size={40} />
               </div>
-              <p className="max-w-[900px]">Preços acessíveis</p>
+              <p className="max-[900px]:text-center max-[780px]:text-[11.5px] max-[780px]:text-center">
+                Preços acessíveis
+              </p>
             </div>
-            <div className="flex p-10 liner text-white items-center gap-4 justify-center flex-col">
-              <div className="w-24 h-24 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
+            <div className="flex liner gap-3 max-[780px]:h-[150px] max-[780px]:w-[170px] text-white items-center justify-center flex-col">
+              <div className="w-24 h-24 max-[780px]:h-6 max-[780px]:w-6 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
                 <FaPhoneAlt size={40} />
               </div>
-              <p className="max-w-[900px]">
+              <p className="max-[900px]:text-center max-[780px]:text-[11.5px] max-[780px]:text-center">
                 Equipa dedicada para dar suporte 24/7
               </p>
             </div>
-            <div className="flex p-10 liner text-white items-center gap-4 justify-center flex-col">
-              <div className="w-24 h-24 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
+            <div className="flex liner gap-3 max-[780px]:h-[150px] max-[780px]:w-[170] text-white items-center justify-center flex-col">
+              <div className="w-24 h-24  max-[780px]:h-10 max-[780px]:w-10 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
                 <AiTwotoneSetting size={40} />
               </div>
-              <p className="max-w-[900px]">
+              <p className="max-[900px]:text-[8px] text-center max-[780px]:text-[8px] max-[780px]:text-center">
                 Programação contínua para adequar o sistema a novas realidades
               </p>
             </div>
