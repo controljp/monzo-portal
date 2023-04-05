@@ -1219,16 +1219,16 @@ function LandingPage() {
                 <BsCurrencyDollar size={40} />
               </div>
               <p className="text-center text-[11.5px]">
-                Preços acessíveis-abaixo
+                Preços acessíveis
               </p>
             </div>
 
-            <div className="flex liner gap-3 h-[150px] w-[120px] text-white items-center justify-center flex-col">
+            <div className="flex liner gap-3 h-[150px] w-[110px] text-white items-center justify-center flex-col">
               <div className="w-10 h-10 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
                 <FaPhoneAlt size={25} />
               </div>
               <p className="text-center text-[11.5px]">
-                Equipa dedicada para dar suporte 24/7  -abaixo
+                Equipa dedicada para dar suporte 24/7
               </p>
             </div>
             <div className="flex liner gap-3 h-[150px] w-[300] text-white items-center justify-center flex-col">
@@ -1236,7 +1236,7 @@ function LandingPage() {
                 <AiTwotoneSetting size={25} />
               </div>
               <p className="text-center text-[10px]">
-                Programação contínua para adequar o sistema a novas realidades -abaixo
+                Programação contínua para adequar o sistema a novas realidades
               </p>
             </div>
           </div>
