@@ -1214,9 +1214,9 @@ function LandingPage() {
             id="content1"
             className="smin:hidden  container mx-auto px-3 pt-12 pb-2 gap-5 grid grid-cols-3"
           >
-            <div className="flex p-10 liner gap-3 h-[150px] w-[170] text-white items-center justify-center flex-col">
-              <div className="w-10 h-10 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
-                <BsCurrencyDollar size={40} />
+            <div className="flex p-10 liner gap-3 h-[150px] w-[95px] text-white items-center justify-center flex-col">
+              <div className="w-7 h-7 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
+                <BsCurrencyDollar size={18} />
               </div>
               <p className="text-center text-[11.5px]">
                 Preços acessíveis
@@ -1224,16 +1224,16 @@ function LandingPage() {
             </div>
 
             <div className="flex liner gap-3 h-[150px] w-[110px] text-white items-center justify-center flex-col">
-              <div className="w-10 h-10 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
-                <FaPhoneAlt size={25} />
+              <div className="w-7 h-7 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
+                <FaPhoneAlt size={12} />
               </div>
               <p className="text-center text-[11.5px]">
                 Equipa dedicada para dar suporte 24/7
               </p>
             </div>
-            <div className="flex liner gap-3 h-[150px] w-[300] text-white items-center justify-center flex-col">
-              <div className="w-10 h-10 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
-                <AiTwotoneSetting size={25} />
+            <div className="flex liner gap-3 h-[150px] w-[105px] text-white  items-center justify-center flex-col">
+              <div className="w-7 h-7 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
+                <AiTwotoneSetting size={15} />
               </div>
               <p className="text-center text-[10px]">
                 Programação contínua para adequar o sistema a novas realidades
