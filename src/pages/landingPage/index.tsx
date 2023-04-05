@@ -1216,7 +1216,7 @@ function LandingPage() {
           >
             <div className="flex p-10 liner gap-3 h-[150px] w-[95px] text-white items-center justify-center flex-col">
               <div className="w-7 h-7 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
-                <BsCurrencyDollar size={18} />
+                <BsCurrencyDollar size={20} />
               </div>
               <p className="text-center text-[11.5px]">
                 Preços acessíveis
