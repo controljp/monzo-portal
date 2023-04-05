@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BsArrowRight, BsCurrencyDollar, BsDownload, BsFacebook, BsFileEarmarkMinus } from "react-icons/bs";
+import { BsArrowRight, BsCurrencyDollar, BsDoorOpenFill, BsDownload, BsFacebook, BsFileEarmarkMinus, BsYoutube } from "react-icons/bs";
 import { BiDollarCircle } from "react-icons/bi";
 
 import {
@@ -312,11 +312,11 @@ function LandingPage() {
                 e porteiros em tempo real, tendo o estado alterado quando houver
                 uma ação.
               </p>
-              <div className="flex gap-12 mt-9  items-center">
-              <a href="#">
-                <button className=" w-52 p-1 h-12 text-gray-50 bg-[#283990] flex items-center justify-center gap-4 rounded-sm">
-                  Baixar Manual
-                <BsDownload size={20} />
+              <div className="flex gap-12 mt-9  items-center rounded-md">
+              <a href="https://www.youtube.com/watch?v=4NZUN-7VqTM" target="_blank">
+                <button className="w-40 p-1 h-12 text-gray-50 bg-[#283990] flex items-center justify-center gap-4 rounded-md">
+                  ver video
+                <BsYoutube size={20} />
                 </button>
                 </a>
                 <button>
@@ -1180,7 +1180,7 @@ function LandingPage() {
         <section >
           <div
             id="content1"
-            className="py-14 container mx-auto px-8 gap-5 grid grid-cols-3"
+            className="hidden smin:grid  py-14 container mx-auto px-8 gap-5  grid-cols-3"
           >
             <div className="flex p-10 liner gap-3  max-[780px]:h-[150px] max-[780px]:w-[170] text-white items-center justify-center flex-col">
               <div className="w-24 h-24 max-[780px]:h-10 max-[780px]:w-10 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
@@ -1190,6 +1190,7 @@ function LandingPage() {
                 Preços acessíveis
               </p>
             </div>
+
             <div className="flex liner gap-3 max-[780px]:h-[150px] max-[780px]:w-[170px] text-white items-center justify-center flex-col">
               <div className="w-24 h-24 max-[780px]:h-6 max-[780px]:w-6 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
                 <FaPhoneAlt size={40} />
@@ -1202,11 +1203,44 @@ function LandingPage() {
               <div className="w-24 h-24  max-[780px]:h-10 max-[780px]:w-10 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
                 <AiTwotoneSetting size={40} />
               </div>
-              <p className="max-[900px]:text-[8px] text-center max-[780px]:text-[8px] max-[780px]:text-center">
+              <p className="max-[900px]:text-[8px] text-center max-[780px]:text-[8px] max-[450px]:text-[1px] max-[780px]:text-center">
                 Programação contínua para adequar o sistema a novas realidades
               </p>
             </div>
           </div>
+
+              {/* mobile */}
+          <div
+            id="content1"
+            className="smin:hidden  container mx-auto px-3 pt-12 pb-2 gap-5 grid grid-cols-3"
+          >
+            <div className="flex p-10 liner gap-3 h-[150px] w-[170] text-white items-center justify-center flex-col">
+              <div className="w-10 h-10 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
+                <BsCurrencyDollar size={40} />
+              </div>
+              <p className="text-center text-[11.5px]">
+                Preços acessíveis-abaixo
+              </p>
+            </div>
+
+            <div className="flex liner gap-3 h-[150px] w-[120px] text-white items-center justify-center flex-col">
+              <div className="w-10 h-10 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
+                <FaPhoneAlt size={25} />
+              </div>
+              <p className="text-center text-[11.5px]">
+                Equipa dedicada para dar suporte 24/7  -abaixo
+              </p>
+            </div>
+            <div className="flex liner gap-3 h-[150px] w-[300] text-white items-center justify-center flex-col">
+              <div className="w-10 h-10 flex items-center justify-center border-4 border-[#A7B5FF] rounded-[100%]">
+                <AiTwotoneSetting size={25} />
+              </div>
+              <p className="text-center text-[10px]">
+                Programação contínua para adequar o sistema a novas realidades -abaixo
+              </p>
+            </div>
+          </div>
+
         </section>
         <section className="bg-transparent">
           <div
@@ -1260,7 +1294,7 @@ function LandingPage() {
                     className="w-full bg-transparent text-white border-b border-[#dedede55] p-1 h-12 placeholder:text-gray-300 placeholder:text-sm placeholder:font-light"
                   />
                 </div>
-                <button className="w-20 p-1 h-12 text-gray-50 bg-[#283990] flex items-center justify-center">
+                <button className="w-28 p-1 h-10 text-black bg-[#A7B5FF] flex items-center justify-center">
                   Enviar
                 </button>
               </form>
